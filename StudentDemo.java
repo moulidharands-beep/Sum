@@ -1,5 +1,4 @@
 class Student {
-    // Member variables
     String name;
     int age;
     int rollNumber;
