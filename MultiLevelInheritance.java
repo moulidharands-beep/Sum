@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Base class
 class Vehicle {
     void start() {
@@ -58,3 +59,35 @@ public class MultiLevelInheritance {
     }
 }
 
+=======
+// Base class
+class Vehicle {
+    void start() {
+        System.out.println("Vehicle started");
+    }
+}
+
+// Intermediate class (inherits from Vehicle)
+class Car extends Vehicle {
+    void drive() {
+        System.out.println("Car is driving");
+    }
+}
+
+// Derived class (inherits from Car)
+class ElectricCar extends Car {
+    void charge() {
+        System.out.println("Electric car is charging");
+    }
+}
+
+// Main class to test
+public class MultiLevelInheritance {
+    public static void main(String[] args) {
+        ElectricCar e = new ElectricCar();
+        e.start();    
+        e.drive();    
+        e.charge();   
+    }
+}
+>>>>>>> f7d1e9fb35eab282287ff64fea7e87c6303a7c46
