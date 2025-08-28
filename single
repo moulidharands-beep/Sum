@@ -1,0 +1,14 @@
+# Base class
+class Vehicle:
+    def show_type(self):
+        print("This is a vehicle.")
+
+# Derived class
+class Car(Vehicle):
+    def show_model(self):
+        print("This is a car model.")
+
+# Object creation
+obj = Car()
+obj.show_type()   # Accessing method from parent class
+obj.show_model()  # Accessing method from child class
