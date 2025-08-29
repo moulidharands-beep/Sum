@@ -11,7 +11,6 @@ class BabyElephant extends Elephant {
     }
 }
 
-// Second level derived class (Multilevel Inheritance)
 class BabyAfricanElephant extends BabyElephant {
     void trumpet() {
         System.out.println("Baby African elephant is trumpeting.");
@@ -34,4 +33,5 @@ public class Main {
         bae.trumpet();   
     }
 }
+
 
